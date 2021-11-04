@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    eXploropia - Feedback
+</title>
+
+<link rel="stylesheet" href="bootstrap.min.css">
+<link href="stylehome.css" rel="stylesheet" type="text/css" media="all">
+
+<style>
+
+#feedform{
+
+                box-shadow:10px 10px 80px 10px black;
+                color:white;
+                display: table;
+                background-color:darkcyan;
+                padding:50px;
+                border:1px solid darkcyan;
+                border-radius:30px;
+                margin-left: 400px;
+                text-transform: uppercase;
+            }
+            .row{
+                display: table-row;
+            }
+            .row label{
+                display: table-cell;
+                padding:5px;
+            }
+            .row input,select{
+                display: table-cell;
+                background-color:white;
+                border-style:hidden hidden ridge hidden;
+                border-radius: 12px;
+                padding:5px;
+                color:black;
+                font-size:13px;
+            }
+           input.button{
+                padding:10px 50px 10px 50px;
+                color:white;
+                display: table-cell;
+                font-style:italic;
+                font-weight:900;
+                border-radius: 15px;
+                box-shadow: 3px 2px 70px 2px darkgrey;
+            }
+            input.button:hover{
+                color:white;
+                background-color:goldenrod;
+                color: black;
+                box-shadow: 3px 2px 70px 2px greenyellow;
+            }
+            textarea.area{
+                background-color: white;
+                color: black;
+            }
+
+
+</style>
+
+</head>
+
+
+<body>
+        <div id="banner" style=" padding: 21px; background:black url(logo.png) repeat-x center center !important;opacity: 0.9;">
+             <a href="webproject.html"> <h1 style="text-align: left; color: aliceblue;"><strong style="color:darkcyan; font-family:monospace; padding:6px; border:4px solid white; border-radius:50px; background-color:white; font-size: 25px;"><span style="color:red;">eX</span>ploropia</strong></h1></a><br>
+          <h5 style="font-size:17px;"><em><span style="color:lawngreen;">Explo</span><span style="color: yellow;">re&nbsp;Eth</span><span style="color:orangered;">iopia<span style="color: white;"></span></span></em></h5></div>
+
+          <br><br><br>
+          <h1>Feedback</h1><hr>
+
+
+
+          <div class="welcome" style="margin:20px 80px 20px 20px;">
+
+                <p>
+
+                   <form id="feedform" action="#" method="POST" onsubmit="return myFunction()">
+                        <div class="row">
+                                <label for="Name">Name:</label>
+                                <input type="text" id="Name" name="Name">
+                              </div>
+              <br><br>
+                              <div class="row">
+                                <label for="Email">Email:</label>
+                                <input type="email" id="Email" name="Email">
+                              </div>
+              <br><br>
+                            <div class="row">
+                                <label for="feedback">Your Feedback:</label>
+                                <textarea class="area" name="feedback" rows="10" cols="30"></textarea>
+                            </div>
+               <br><br>
+               <br><br>
+                  <input class="button" type="submit" name="submit" value="Send">
+
+
+                   </form>
+
+                </p>
+          </div><br><br>
+
+          <hr>
+          <footer id="foot" style="padding: 8px;">
+                <div style="text-align: right; font-weight: 600;"><a style="color: azure;" href="terms.html">Terms and Conditions</a></div>
+    <div style="float:right; font-weight: 600;"><a style="color: azure;" href="feedback.html">Feedback</a></div><br>
+    <div style="text-align: right; font-weight: 600;"><a style="color: azure;" href="webproject.html">Home</a></div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="logo.png" width="110" height="100" alt="logo">
+                <br><i style="padding: 50px;">Copyright © 2021 eXploropia.com. All Rights Reserved</i>
+            </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+
+body{
+	background-color: aliceblue;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.carousel-item{
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	
+}
+
+#lg{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -1;
+	opacity:0.7;
+}
+
+.menu{
+	
+	position: sticky;
+	margin-left: auto;  	
+	top: 0;
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+
+}
+ul.menu{
+   margin-top:10px;	
+   list-style-type: none;
+   padding: 20px;
+   overflow: hidden;
+   background-color: darkcyan;
+   
+   
+}
+ul.menu li a{
+	color:white;
+	text-align: center;
+	display: inline;
+	padding: 15px 20px;
+	font-weight: 700;
+	background-color: darkcyan;
+	text-decoration: none;
+
+}
+ul.menu li {
+	float: right;
+}
+ ul.menu li a:hover{
+	background-color:aliceblue;
+	color:darkcyan;
+	font-weight: 700;
+	border-radius:5px;
+	cursor: pointer;
+}
+a:link{
+	text-decoration: none;
+
+}
+
+a:visited{
+	color: palevioletred;
+	text-decoration: none;
+}
+
+a:active{
+	background-color: purple;
+	color:white;
+	border-radius:5px;
+
+}
+.welcome{
+	padding:15px;
+	border-radius:20px;
+	background-color: lightcyan;
+	margin:20px 430px 20px 20px;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+
+}
+.side{
+	float:right;
+	padding:10px;
+	background-color: blanchedalmond;
+	margin-top:20px;
+	border-radius:10px;
+}
+#get{
+   border-top: 10px solid darkcyan;
+   border-radius: 20px;
+}
+
+
+div.gallery {
+	margin: 5px 5px 5px 5px;
+	border: 0px solid teal;
+	float: left;
+	width: 270px;
+	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.4);
+  }
+  
+  div.gallery:hover {
+	border: 3px solid darkcyan;
+	opacity: 0.7;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	background-color:teal;
+	color:white;
+	border-radius:0px;
+	cursor: pointer;
+	padding: 15px;
+	text-align: center;
+  }
+  #foot {
+	  background:darkcyan url(pattern.png) repeat center center !important;
+	  color:white;
+  }
+
+ div.gall{
+	margin: 20px 10px 10px 20px;
+	border: 2px solid white;
+	display: block;
+	width: 200px;
+	box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.4);
+ }
+ div.gall img{
+	 width:100%;
+	 height: auto;
+ }
+
+ div.gall:hover {
+	border: 3px solid darkcyan;
+	opacity: 0.7;
+  }
+div.about{
+    margin-left: 100px;
+}
+.buttons{
+	background-color: darkslategray;
+	color:white;
+	padding:15px;
+	border:2px solid darkslategray;
+	border-radius:23px;
+	box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.4);
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 550px;
+
+}/*
+.carousel-item{
+transition:-webkit-transform 0.01s ease;
+transition:transform 0.01s ease;
+transition:transform 0.01s ease, -webkit-transform 0.01s ease;
+-webkit-backface-visibility:visible;
+backface-visibility:visible;
+} */
+#demo{
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom: 0px;
+
+}

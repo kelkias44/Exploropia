@@ -1,0 +1,134 @@
+/* theodin.co.uk -Designed and developed by Philip Beel All Rights Reserved*/
+
+/* 
+------------------------------------------------------------------------------------------------------Genetic--------------*/
+#contactable {
+	background: url(images/contact.png) no-repeat;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:102px;
+	left:0;
+	margin-left:0px; 
+	*margin-left:-2px; 
+	overflow:hidden;
+	position:fixed;
+	*position:absolute;
+	text-indent:-100000px;
+	top:300px;
+	*margin-top:10px;
+	width:24px;
+	z-index:100000;
+}
+#contactable:hover {
+	background-position:left bottom;
+}
+
+#contactForm {
+	background-color:#D3D9E1;
+	border:2px solid #FFFFFF;
+	color:#FFFFFF;
+	height:440px;
+	left:0;
+	margin-left:-410px;
+	margin-top:-100px;
+	overflow:hidden;
+	padding-left:30px;
+	position:fixed;
+	top:220px;
+	width:370px;
+	*width:370px;
+	z-index:99;
+}
+
+form#contactForm input, textarea {
+	background:#FFFFFF none repeat scroll 0 0;
+	outline-style:none;
+	outline-width:medium;
+	width:325px;
+	padding:5px;
+	border:1px solid #dfdfdf;
+	font-family: georgia;
+	font-size:1em;
+	margin-bottom:10px;
+}
+
+form#contactForm .submit {
+	background: #FF8A03 none repeat scroll 0 0;
+	outline-style:none;
+	outline-width:medium;
+	width:325px;
+	padding:5px;
+	border:3px solid #000;
+	outline-color:-moz-use-text-color;
+	font-family: georgia;
+	font-size:1em;
+	cursor:pointer;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:bolder;
+	font-family:Helvetica;
+	margin-top:10px;
+}
+
+form#contactForm p {
+	width:325px;
+	font-size:0.9em;
+}
+
+#contactForm .red {
+	color:	#F5410F;
+}
+
+#overlay {
+	background-color:#666666;
+	display:none;
+	height:100%;
+	left:0;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:0;
+}
+
+#name.error { background-color: #FF8A03; }
+#email.error { background-color: #FF8A03; }
+#comment.error { background-color: #FF8A03; }
+
+#contactform #loading {
+	background: url(images/ajax-loader.gif) no-repeat;
+	width:55px;
+	height:55px;
+	margin: 100px auto;
+	display:none;
+}
+
+#callback {
+	font-family: georgia;
+	font-size:1.1em;
+	color: #FFF;
+	width:335px;
+	margin: 100px auto;	
+	display:none;
+}
+
+
+.holder {
+	margin:0 auto;
+	padding-top:20px;	
+	display:none;
+	clear:both
+}	
+	
+a#contactableIzzyHelp, a#contactableContact{
+	margin-right:10px; padding:5px 10px; font-size:14px;
+	background:#fff; color:#000; display:block; float: left; margin-bottom:10px;
+	
+}
+a#contactableIzzyHelp:hover, a#contactableContact:hover{
+	background:#000; color:#fff;
+}
+#IzzyHelp{
+	clear:both
+}
